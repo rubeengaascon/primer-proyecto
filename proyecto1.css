@@ -1,0 +1,683 @@
+* {
+    margin: 0%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 162, 1);
+    justify-content: space-between;
+}
+
+.nav img {
+    width: 50px;
+}
+
+.linksnav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+
+}
+
+.header {
+    background-color: rgb(1, 77, 158);
+    width: 100%;
+}
+
+.tituloheader {
+    color: rgb(236, 162, 1);
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.headerdis {
+    display: flex;
+    justify-content: center;
+
+}
+
+.letraheader {
+    color: rgb(236, 162, 1);
+}
+
+.columna1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagen1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.parrafo1header {
+    width: 50%;
+    margin-left: 10%;
+    border: 2px solid orange;
+    padding: 2%;
+}
+
+.columna2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.imagen2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+
+}
+
+.imagen2 img {
+    width: 100%;
+}
+
+.parrafo2header {
+    width: 50%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    border: 2px solid orange;
+    padding: 2%;
+}
+
+.section1 {
+    background-color: rgb(94, 117, 144);
+
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    color: aliceblue;
+}
+
+.titulosec1 {
+    display: flex;
+    justify-content: center;
+}
+
+.columna3 {
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 5%;
+    color: azure;
+
+}
+
+.imagen3 {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.imagen3 img {
+    width: 100%;
+}
+
+.parrafo3 {
+    width: 50%;
+    margin-left: 10%;
+    border: 2px solid azure;
+    padding: 2%;
+}
+
+.columna4 {
+    flex-direction: column;
+    justify-content: right;
+    color: azure;
+
+}
+
+.imagen4 {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imagen4 img {
+    width: 100%;
+}
+
+.parrafo4 {
+    width: 50%;
+    margin-left: 14%;
+    margin-bottom: 5%;
+    border: 2px solid azure;
+    padding: 2%;
+}
+
+.section2 {
+    background-color: bisque;
+
+}
+
+.titulo3 {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.suscripcion {
+    display: contents;
+}
+
+.fila1 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nombre {
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+.rnombre {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.apellido {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rapellido {
+    margin-right: 30%;
+    margin-left: auto;
+}
+
+.fila2 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.email {
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+.remail {
+    margin-right: 40%;
+    margin-left: auto;
+}
+
+.fila3 {
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenidof3 {
+    margin-left: 30%;
+}
+
+.fila4 {
+    border: 1px solif black;
+}
+
+.submit {
+    margin-left: 5%;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.headerp {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    padding-bottom: 2%;
+    background-color: gray;
+
+}
+
+.tituloH {
+    color: white;
+    font-size: xx-large;
+}
+
+.mejorespeliculas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: gray;
+}
+
+.titulopeli {
+    font-size: xx-large;
+    font-style: oblique;
+    color: whitesmoke;
+}
+
+.pelicula1 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula2 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula3 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula4 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula5 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto5 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula6 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto6 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula7 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto7 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula8 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto8 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula9 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto9 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.pelicula10 {
+    display: grid;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.texto10 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    padding: 2%;
+    color: black;
+    background-color: aliceblue;
+    border: 4px solid orange;
+}
+
+.headern {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    padding-bottom: 2%;
+    background-color: rgb(60, 60, 97);
+}
+.titulon{
+    color: whitesmoke;
+}
+
+.snovedades {
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(60, 60, 97);
+}
+
+.novedades {
+    display: flex;
+    
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.novedad1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.tnovedad1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: whitesmoke;
+
+}
+
+.novedad1 img {
+    width: 80%;
+    margin-top: 3%;
+}
+
+.texton1 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    padding: 1%;
+    border: 3px solid orange;
+    color: whitesmoke;
+
+}
+
+.novedad2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.tnovedad2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.novedad2 img {
+    width: 80%;
+    margin-top: 3%;
+}
+
+.texton2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    padding: 1%;
+    border: 3px solid orange;
+    color: whitesmoke;
+}
+.novedad3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 3%;  
+}
+
+.tnovedad3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.novedad3 img {
+    width: 80%;
+    margin-top: 3%;
+}
+
+.texton3 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    padding: 1%;
+    border: 3px solid orange;
+    color: whitesmoke;
+
+}
+
+.snovedades2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(60, 60, 97);
+}
+
+.novedades2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.novedad4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.tnovedad4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.novedad4 img {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.texton4 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 19%;
+    padding: 1%;
+    border: 3px solid orange;
+    color: whitesmoke;
+   
+}
+.novedad5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.tnovedad5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.novedad5 img {
+    width: 50%;
+    margin-left: 19%;
+    margin-top: 3%;
+}
+
+.texton5 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 19%;
+    padding: 1%;
+    border: 3px solid orange;
+    color: whitesmoke;
+
+}
+
+.novedad6 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.tnovedad6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.novedad6 img {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.texton6 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 19%;
+    padding: 1%;
+    border: 3px solid orange;
+    color: whitesmoke;
+
+}
